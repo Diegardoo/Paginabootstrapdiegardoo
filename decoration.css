@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main .carousel-inner img {
+	object-fit: cover;
+	filter: grayscale(80%)
+	
+}
+
+#carouselExampleControls {
+	position: relative;
+}
+
+#carouselExampleControls .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.50);
+	color: white;
+}
+
+#carouselExampleControls .overlay .container,
+#carouselExampleControls .overlay .row {
+	height: 100%;
+}
+
+.btn-platzi{
+	background-color: #97c93e;
+	color: white;
+}
+
+.btn-platzi:hover {
+	background-color: #82ad36;
+}
+
+h1{
+	font-size: 75px;
+	color: aqua;
+	font-family: 'Alkatra', cursive;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 4px;
+}
+
+.p{
+	font-size: 29px;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 1px;
+}
+h2{
+	text-align: center;
+	background-color: aqua;
+	color: black;
+	font-family: 'Alkatra', cursive;
+	font-family: 'Anton', sans-serif;
+	max-height: 75%;
+	margin: 0%;
+	padding: 7px;
+	letter-spacing: 2px;
+}	
+
+.contenedor{
+	width: 100%;
+	max-width: 1290px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	background-color: black;
+}
+
+.contenedor .card{
+	width: 360px;
+	height: 500px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.contenedor .card:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor .card-img-top{
+	width: 295px;
+	height: 220px;
+}
+
+.contenedor .card-title{
+	font-weight: 600;
+	font-family: 'Alkatra', cursive;
+	font-family: 'Anton', sans-serif;
+	color: aqua;
+	letter-spacing: 1px;}
+
+.contenedor .card-text{
+	padding: 0 1rem;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.form-label{
+	font-family: 'Alkatra', cursive;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 1px;
+	color: aqua;
+	font-size: 17px;
+}
+
+.contenedor2{
+	background-color: black;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 25px;
+	display:flex;
+}
+
+.form-check-label{
+	font-family: 'Ubuntu', sans-serif;
+	color: aqua;
+	font-size: 16px;
+}
+
+#footer {
+	background: aqua;
+}
+
+#footer a {
+	color: black;
+	text-decoration: none;
+	background-color: aqua;
+	font-family: 'Alkatra', cursive;
+	font-family: 'Anton', sans-serif;
+	font-size: 21px;
+}
